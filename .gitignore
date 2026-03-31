@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Generated files
+*.duckdb
+*.duckdb.wal
+prediction_results*.png
+
+# dlt pipeline state
+.dlt/pipeline_data/
+.dlt/pipelines/

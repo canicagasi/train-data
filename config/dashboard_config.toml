@@ -1,0 +1,11 @@
+# Dashboard configuration
+
+[train]
+number = 27
+station = "TPE"
+
+[prediction]
+deadline_minutes = 2
+
+[database]
+path = "digitraffic_trains.duckdb"

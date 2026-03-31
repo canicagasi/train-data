@@ -1,0 +1,13 @@
+# dlt configuration for Digitraffic train data pipeline
+
+[sources.digitraffic]
+train_number = 27
+target_station = "TPE"
+api_base_url = "https://rata.digitraffic.fi/api/v1"
+fetch_start_date = "2025-01-01"
+fetch_end_date = "2026-03-31"
+
+[prediction]
+target_date = "2026-04-08"
+deadline_minutes = 2
+transfer_minutes = 15
